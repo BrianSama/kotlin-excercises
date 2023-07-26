@@ -37,6 +37,6 @@ fun main(){
     println("Please enter the second number")
     val secondNumber = readln().toDouble()
     println("Please enter the operator *, +, - or /")
-    val operator = readln()!![0]
+    val operator = readln()[0]
     calculate(firstNumber,secondNumber,operator)
 }
