@@ -6,23 +6,26 @@
 // == /, it will divide the two numbers
 
 fun calculate(a:Double,b:Double,c:Char){
-    var answer:Double
+
     if(c == '*'){
-        answer = a*b
+        val answer = a*b
+        println("The result of $a $c $b is $answer")
     }
     else if(c == '+'){
-        answer = a+b
+        val answer = a+b
+        println("The result of $a $c $b is $answer")
     }
     else if(c == '-'){
-        answer = a-b
+        val answer = a-b
+        println("The result of $a $c $b is $answer")
     }
     else if(c == '/'){
-        answer = a/b
+        val answer = a/b
+        println("The result of $a $c $b is $answer")
     }
     else
-        answer= 0.0
         println("You entered an invalid operator")
-    println("The result of $a $c $b is $answer")
+
 }
 
 //Main Function and testing
